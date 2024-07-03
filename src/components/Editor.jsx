@@ -1,6 +1,14 @@
+import "codemirror/lib/codemirror.css";
+import "codemirror/theme/material.css";
+import "codemirror/mode/xml/xml";
+import "codemirror/mode/javascript/javascript";
+import "codemirror/mode/css/css";
+
 import React from "react";
 import { Box, styled } from "@mui/material";
 import { Close, CloseFullscreen } from "@mui/icons-material";
+import { Controlled as ControlledEditor } from "react-codemirror2";
+
 const Heading = styled(Box)`
   background: #1d1e22;
   display: flex;
@@ -39,7 +47,7 @@ function Editor() {
           </Heading>
           <CloseFullscreen />
         </Header>
-        <Box></Box>
+        <ControlledEditor />
       </Box>
     </>
   );
