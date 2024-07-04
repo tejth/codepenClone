@@ -35,6 +35,7 @@ const Heading = styled(Box)`
 `;
 
 const Editor = ({ heading, language, value, onChange, icon, color }) => {
+  //handling expanding functionality
   const [open, setOpen] = useState(true);
 
   const handleChange = (editor, data, value) => {
