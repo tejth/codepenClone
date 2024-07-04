@@ -1,16 +1,12 @@
-import { useState } from "react";
+//components
 import Home from "./components/Home";
-import "./App.css";
 import DataProvider from "./context/DataProvider";
-function App() {
-  const [count, setCount] = useState(0);
 
+function App() {
   return (
-    <>
-      <DataProvider>
-        <Home />
-      </DataProvider>
-    </>
+    <DataProvider>
+      <Home />
+    </DataProvider>
   );
 }
 
