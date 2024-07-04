@@ -1,5 +1,9 @@
-﻿# Intro
+﻿# Intro (https://tejth-codepen.netlify.app/)                                                             
+  
+  
+  
  <p>CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.</p>
+<img width="958" alt="image" src="https://github.com/tejth/codepenClone/assets/110801292/fea013f8-ce70-4540-b453-e38cb26bb8c5">
 
 
  # Project Initialization
